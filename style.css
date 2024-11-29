@@ -1,0 +1,60 @@
+body {
+    color: rgb(186, 186, 186);
+    background: rgb(1, 7, 62); 
+    margin: 0;
+    font-family: "Iceberg", sans-serif;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 5px  rgb(255, 255, 255);
+    padding:25px;
+    font-size: 55px;
+    color: rgb(73, 162, 250);
+}
+
+.chamada {
+    background: rgb(0, 0, 0);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 100px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.categoria-recomendações {
+    display: flex;
+    overflow-x: auto;
+    gap: 12px
+}
+
+.categoria {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 1px;
+}
+
+.categoria-recomendações img {
+    opacity: 0.5;
+    height: 180px;
+}
+
+.categoria-recomendações img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(255, 253, 141); 
+}
+
+.categoria h2 {
+    color: rgb(73, 162, 250);
+}
